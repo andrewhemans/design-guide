@@ -17,6 +17,7 @@ body {
   position: absolute;
   top: 46px;
   width: 100%;
+  visibility: hidden;
 }
 .top-bar ul {
   background: transparent;
@@ -109,6 +110,24 @@ h4 {
 
 h5 {
   color: #86BC40;
+}
+
+img.logo-image {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+a {
+  font-size: 16px;
+  color: #0A8CC6;
+}
+
+a:hover {
+  color: #025B80;
 }
 
 /*header items*/
@@ -352,27 +371,27 @@ p {
 }
 
 #mkt-green {
-  background-color: #80B449;
+  background-color: #86BC40;
   height: 100px;
 }
 
 #mkt-lightblue {
-  background-color: #2A83B1;
+  background-color: #0A8CC6;
   height: 100px;
 }
 
 #mkt-baseblue {
-  background-color: #1F546F;
+  background-color: #025B80;
   height: 100px;
 }
 
 #mkt-darkblue {
-  background-color: #183848;
+  background-color: #024059;
   height: 100px;
 }
 
 #mkt-coolgray {
-  background-color: #6C6A69;
+  background-color: #1A1A1A;
   height: 100px;
 }
 
@@ -406,11 +425,55 @@ p {
 
 
 #mkt-text-green {
-  background-color: #80B449;
+  background-color: #78BE20;
   height: 24px;
   width: 24px;
-  margin-top: -7px;
+  margin-top: -8px;
   margin-right: 6px;
+}
+
+#web-text-green {
+  background-color: #86BC40;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#web-text-blue {
+  background-color: #024059;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#web-text-lt-blue {
+  background-color: #0A8CC6;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#mkt-text-baseblue {
+  background-color: #025B80;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#mkt-text-black {
+  background-color: #1A1A1A;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#text-cards {
+  padding-bottom: 50px;
 }
 
 .has-tip {
@@ -419,4 +482,44 @@ p {
     position: relative;
     display: inline-block;
     cursor: help;
+}
+
+.web-type > h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #86BC40;
+}
+
+.web-type > h2 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #024059;
+}
+
+.web-type > h3 {
+  font-size: 30px;
+  font-weight: normal;;
+  color: #86BC40;
+}
+
+.web-type > h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #024059;
+}
+
+.web-type > h5 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #025B80;
+}
+
+.web-type > p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.web-type > a {
+  line-height: 3;
 }
