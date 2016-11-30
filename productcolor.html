@@ -56,21 +56,21 @@
     </div>
     <div class="top-bar-right">
       <ul class="vertical menu dropdown" data-accordion-menu>
-        <li class="menu-parent active"><a href="index.html">Introduction</a></li>
+        <li class="menu-parent"><a href="index.html">Introduction</a></li>
         <li class="menu-parent">
           <a href="#">Marketing Styles</a>
           <ul class="menu vertical nested">
             <li><a href="marketinglogo.html">Logo</a></li>
             <li><a href="marketingcolor.html">Color</a></li>
-            <li><a href="print-type.html">Print Typography</a></li>
-            <li><a href="web-type.html">Web Typography</a></li>
+            <li ><a href="print-type.html">Print Typography</a></li>
+            <li ><a href="web-type.html">Web Typography</a></li>
           </ul>
         </li>
         <li class="menu-parent">
           <a href="#">Product Styles</a>
-          <ul class="menu vertical nested">
+          <ul class="menu vertical nested is-active">
             <li><a href="productlogo.html">Logo</a></li>
-            <li><a href="productcolor.html">Color</a></li>
+            <li class="active"><a href="productcolor.html">Color</a></li>
             <li><a href="producttype.html">Typography</a></li>
           </ul>
         </li>
@@ -101,7 +101,7 @@
     <div class="row" id="body-container">
       <div id="nav" class="small-2 medium-2 columns">
         <ul class="vertical menu dropdown" data-accordion-menu>
-          <li class="menu-parent active"><a href="index.html">Introduction</a></li>
+          <li class="menu-parent "><a href="index.html">Introduction</a></li>
           <li class="menu-parent">
             <a href="#">Marketing Styles</a>
             <ul class="menu vertical nested">
@@ -113,9 +113,9 @@
           </li>
           <li class="menu-parent">
             <a href="#">Product Styles</a>
-            <ul class="menu vertical nested">
+            <ul class="menu vertical nested is-active">
               <li><a href="productlogo.html">Logo</a></li>
-              <li><a href="productcolor.html">Color</a></li>
+              <li class="active"><a href="productcolor.html">Color</a></li>
               <li><a href="producttype.html">Typography</a></li>
             </ul>
           </li>
@@ -139,43 +139,105 @@
 
       <!-- body content -->
 
-      <div class="small-12 medium-8 columns" id="body-content">
+      <div class="small-12 medium-8 columns body-content" id="body-content">
 
-        <h2>Introduction</h2>
-        <p>This guide serves as a resource to define the visual and stylistic elements that make up Sencha’s products. As the Sencha team grows, it will become increasingly important to maintain a consistent style and visual language across all areas of the product. We have built the following style guide to document all the styles and components in order to expedite product development. It will provide you with the tools, assets, and guidance you will need to reinforce the Sencha brand across all communications.</p>
+        <h2>Color</h2>
         <br/>
-        <br/>
-        <h3>Quick Tips</h3>
-        <div class="small-12 columns" id="text-cards">
-        <div class="card-left large-4 columns">
-          <div class="intro-card"><img src="images/kis.svg"/></div>
-          <br/>
-          <h4>Keep it simple<h4>
-            <p>Our goal is to create easily digestible interfaces and presentations so our users can have a high chance of success. </p>
+        <h3>Color Palette</h3>
+        <p>Color is intended to be used as an accent. When in doubt, use color only for Headlines, Subheads, charts and infographics. The default background color should always be white. If color is used, be sure to follow the logo guidelines.  </p>
+        <p>Remember to keep things light and airy. If your use of color makes the overall composition feel dark and claustrophobic, it’s time to start removing elements to open things up. </p>
+
+        <div class="colorcontainer card-left large-4 columns">
+          <div class="colorcard small-12 columns">
+            <div class="colorchip small-12 columns" id="mkt-green"></div>
+            <div class="chip-text small-12 columns">
+              <h4>Pantone 368 C</h4>
+              <br/>
+              <p>HEX</p>
+              <p class="reg-text">#86BC40</p>
+              <br/>
+              <p>RGB</p>
+              <p class="reg-text">120, 190, 32</p>
+              <br/>
+              <p>CMYK</p>
+              <p class="reg-text">65, 0, 100, 0</p>
+            </div>
+          </div>
         </div>
 
-        <div class="card-middle large-4 columns">
-          <div class="intro-card"><img src="images/speak.svg"/></div>
-          <br/>
-          <h4>Speak in the correct tone<h4>
-            <p>Maintaining a consistent style across all areas of the product is essential for strengthening and differentiating our brand.</p>
+        <div class="colorcontainer card-middle large-4 columns">
+          <div class="colorcard small-12 columns">
+            <div class="colorchip small-12 columns" id="mkt-lightblue"></div>
+            <div class="chip-text small-12 columns">
+              <h4>Pantone 299 C</h4>
+              <br/>
+              <p>HEX</p>
+              <p class="reg-text">#0A8CC6</p>
+              <br/>
+              <p>RGB</p>
+              <p class="reg-text">0, 163, 224</p>
+              <br/>
+              <p>CMYK</p>
+              <p class="reg-text">86, 8, 0, 0</p>
+            </div>
+          </div>
         </div>
 
-        <div class="card-right large-4 columns">
-          <div class="intro-card"><img src="images/feedback.svg"/></div>
-          <br/>
-          <h4>Get feedback<h4>
-            <p>Good design is a collaborative effort that requires receiving critiques in order to develop a better product. </p>
+        <div class="colorcontainer card-right large-4 columns">
+          <div class="colorcard small-12 columns">
+            <div class="colorchip small-12 columns" id="mkt-baseblue"></div>
+            <div class="chip-text small-12 columns">
+              <h4>Pantone 7700 C</h4>
+              <br/>
+              <p>HEX</p>
+              <p class="reg-text">#025B80</p>
+              <br/>
+              <p>RGB</p>
+              <p class="reg-text">22, 92, 125</p>
+              <br/>
+              <p>CMYK</p>
+              <p class="reg-text">84, 17, 0, 57</p>
+            </div>
+          </div>
         </div>
-      </div>
-        <br/>
-        <br/>
-        <br/>
-        <div class="resources">
-          <h3>Resources</h3>
-          <p>Font awesome: <a href="http://fontawesome.io/">http://fontawesome.io/</a></p>
-          <p>Google Fonts: <a href="http://fonts.google.com/">http://fonts.google.com/</a></p>
+
+        <div class="colorcontainer card-left large-4 columns">
+          <div class="colorcard small-12 columns">
+            <div class="colorchip small-12 columns" id="mkt-darkblue"></div>
+            <div class="chip-text small-12 columns">
+              <h4>Pantone 3035 C</h4>
+              <br/>
+              <p>HEX</p>
+              <p class="reg-text">#024059</p>
+              <br/>
+              <p>RGB</p>
+              <p class="reg-text">0, 62, 81</p>
+              <br/>
+              <p>CMYK</p>
+              <p class="reg-text">100, 30, 19, 76</p>
+            </div>
+          </div>
         </div>
+
+        <div class="colorcontainer card-middle large-4 columns end">
+          <div class="colorcard small-12 columns">
+            <div class="colorchip small-12 columns" id="mkt-coolgray"></div>
+            <div class="chip-text small-12 columns">
+              <h4>Pantone Process Black C</h4>
+              <br/>
+              <p>HEX</p>
+              <p class="reg-text">#1A1A1A</p>
+              <br/>
+              <p>RGB</p>
+              <p class="reg-text">39, 37, 31</p>
+              <br/>
+              <p>CMYK</p>
+              <p class="reg-text">0, 0, 0, 100</p>
+            </div>
+          </div>
+        </div>
+
+
       </div>
       <div class="small-2 medium-2 columns">
       </div>
