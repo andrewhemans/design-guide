@@ -403,6 +403,48 @@ p {
   height: 100px;
 }
 
+#prd-darkerblue {
+  background-color: #014D6C;
+  height: 100px;
+}
+
+#prd-highlightblue {
+  background-color: rgba(10, 140, 198, 0.2);
+  height: 100px;
+}
+
+#prd-icongray {
+  background-color: #737373;
+  height: 100px;
+}
+
+#prd-darkgray-2 {
+  background-color: #BCBCBC;
+  height: 100px;
+}
+
+#prd-textfield {
+  background-color: #D0D0D0;
+  height: 100px;
+}
+
+#prd-splittergray {
+  background-color: #E6E6E6;
+  height: 100px;
+}
+
+#prd-lightgray {
+  background-color: #F5F5F5;
+  height: 100px;
+}
+
+#prd-gridgray {
+  background-color: #F9F9F9;
+  height: 100px;
+}
+
+
+
 /*typography page*/
 
 .typecard {
