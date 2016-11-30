@@ -122,7 +122,6 @@ img.logo-image {
 }
 
 a {
-  font-size: 16px;
   color: #0A8CC6;
 }
 
@@ -320,6 +319,15 @@ p {
   font-size: 1.25rem;
 }
 
+/*introduction page*/
+
+.intro-card > img {
+  width: 100%;
+}
+
+.resources {
+  margin-top: 25px;
+}
 /*color style pages*/
 
 .colorcard {
@@ -522,4 +530,10 @@ p {
 
 .web-type > a {
   line-height: 3;
+  font-size: 16px;
+  color: #0A8CC6;
+}
+
+.web-type > a:hover {
+  color: #025B80;
 }
