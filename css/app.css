@@ -335,6 +335,11 @@ p {
   height: 365px;
 }
 
+.prd-colorcard {
+  border: solid 1px #D0D0D0;
+  height: 325px;
+}
+
 .chip-text{
   padding: 10px;
 }
@@ -443,7 +448,9 @@ p {
   height: 100px;
 }
 
-
+.prd-clr {
+  padding-bottom: 4em;
+}
 
 /*typography page*/
 
