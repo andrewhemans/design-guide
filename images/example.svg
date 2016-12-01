@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="865px" height="539px" viewBox="0 0 865 539" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Example</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="865" height="539"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="865" height="539" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="413" y="86" width="225" height="35"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="35" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="193" y="56" width="175" height="24"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="175" height="24" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="377" y="56" width="67" height="24"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="67" height="24" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Product-Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-Style---Typography" transform="translate(-324.000000, -1751.000000)">
+            <g id="Example" transform="translate(324.000000, 1751.000000)">
+                <use id="Rectangle-34" stroke="#025B80" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="Group">
+                    <rect id="Rectangle-32" fill="#025B80" x="0" y="0" width="865" height="50"></rect>
+                    <rect id="Rectangle-35" fill="#333333" x="2" y="50" width="186" height="487"></rect>
+                    <text id="Sencha-Application" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="16" y="30">Sencha Application</tspan>
+                    </text>
+                    <text id="Menu-Item-1" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="18" y="74">Menu Item 1</tspan>
+                    </text>
+                    <rect id="Rectangle-36" fill="#262626" x="2" y="86" width="186" height="72"></rect>
+                    <text id="Submenu-Item" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="32" y="108">Submenu Item</tspan>
+                    </text>
+                    <text id="Submenu-Item-Copy" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="32" y="145">Submenu Item</tspan>
+                    </text>
+                    <text id="Menu-Item-2" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="18" y="179">Menu Item 2</tspan>
+                    </text>
+                    <text id="Menu-Item-3" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="18" y="216">Menu Item 3</tspan>
+                    </text>
+                    <text id="Menu-Item-4" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="18" y="252">Menu Item 4</tspan>
+                    </text>
+                    <text id="Menu-Item-5" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#BCBCBC">
+                        <tspan x="18" y="288">Menu Item 5</tspan>
+                    </text>
+                    <path d="M176.832641,68.1643329 C176.94487,68.2751848 177,68.4045119 177,68.5552314 C177,68.705951 176.94487,68.8362505 176.832641,68.9461299 L172.894771,72.8356671 C172.783527,72.9455465 172.652592,73 172.500984,73 C172.347408,73 172.216473,72.9455465 172.105229,72.8356671 L168.167359,68.9461299 C168.05513,68.8362505 168,68.705951 168,68.5552314 C168,68.4045119 168.05513,68.2751848 168.167359,68.1643329 C168.278604,68.0544535 168.409538,68 168.563115,68 L176.438854,68 C176.590462,68 176.721396,68.0544535 176.832641,68.1643329" id="Fill-45" fill="#919191"></path>
+                    <path d="M170.164333,171.167359 C170.274212,171.05513 170.404512,171 170.555231,171 C170.705951,171 170.83625,171.05513 170.94613,171.167359 L174.835667,175.105229 C174.945546,175.216473 175,175.347408 175,175.499016 C175,175.652592 174.945546,175.783527 174.835667,175.894771 L170.94613,179.832641 C170.83625,179.94487 170.705951,180 170.555231,180 C170.404512,180 170.274212,179.94487 170.164333,179.832641 C170.054454,179.721396 170,179.590462 170,179.436885 L170,171.561146 C170,171.409538 170.054454,171.278604 170.164333,171.167359" id="Fill-46" fill="#919191"></path>
+                    <path d="M170.164333,208.167359 C170.274212,208.05513 170.404512,208 170.555231,208 C170.705951,208 170.83625,208.05513 170.94613,208.167359 L174.835667,212.105229 C174.945546,212.216473 175,212.347408 175,212.499016 C175,212.652592 174.945546,212.783527 174.835667,212.894771 L170.94613,216.832641 C170.83625,216.94487 170.705951,217 170.555231,217 C170.404512,217 170.274212,216.94487 170.164333,216.832641 C170.054454,216.721396 170,216.590462 170,216.436885 L170,208.561146 C170,208.409538 170.054454,208.278604 170.164333,208.167359" id="Fill-46-Copy" fill="#919191"></path>
+                    <path d="M170.164333,244.167359 C170.274212,244.05513 170.404512,244 170.555231,244 C170.705951,244 170.83625,244.05513 170.94613,244.167359 L174.835667,248.105229 C174.945546,248.216473 175,248.347408 175,248.499016 C175,248.652592 174.945546,248.783527 174.835667,248.894771 L170.94613,252.832641 C170.83625,252.94487 170.705951,253 170.555231,253 C170.404512,253 170.274212,252.94487 170.164333,252.832641 C170.054454,252.721396 170,252.590462 170,252.436885 L170,244.561146 C170,244.409538 170.054454,244.278604 170.164333,244.167359" id="Fill-46-Copy-2" fill="#919191"></path>
+                    <path d="M170.164333,280.167359 C170.274212,280.05513 170.404512,280 170.555231,280 C170.705951,280 170.83625,280.05513 170.94613,280.167359 L174.835667,284.105229 C174.945546,284.216473 175,284.347408 175,284.499016 C175,284.652592 174.945546,284.783527 174.835667,284.894771 L170.94613,288.832641 C170.83625,288.94487 170.705951,289 170.555231,289 C170.404512,289 170.274212,288.94487 170.164333,288.832641 C170.054454,288.721396 170,288.590462 170,288.436885 L170,280.561146 C170,280.409538 170.054454,280.278604 170.164333,280.167359" id="Fill-46-Copy-3" fill="#919191"></path>
+                    <polygon id="Fill-17" fill="#F7F7F7" points="188 121 863 121 863 153 188 153"></polygon>
+                    <polygon id="Fill-17-Copy-2" fill="#F7F7F7" points="188 185 863 185 863 217 188 217"></polygon>
+                    <polygon id="Fill-17-Copy-4" fill="#F7F7F7" points="188 249 863 249 863 281 188 281"></polygon>
+                    <polygon id="Fill-17-Copy-7" fill="#F7F7F7" points="188 377 863 377 863 409 188 409"></polygon>
+                    <polygon id="Fill-17-Copy-9" fill="#F7F7F7" points="188 441 863 441 863 473 188 473"></polygon>
+                    <polygon id="Fill-17-Copy-5" fill="#F7F7F7" points="188 313 863 313 863 345 188 345"></polygon>
+                    <polygon id="Fill-17-Copy-11" fill="#F7F7F7" points="188 505 863 505 863 537 188 537"></polygon>
+                    <use id="Rectangle-4-Copy" stroke="#D0D0D0" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <rect id="Rectangle-37" fill="#D0D0D0" x="188" y="119" width="675" height="2"></rect>
+                    <rect id="Rectangle-37" fill="#D0D0D0" x="188" y="86" width="675" height="1"></rect>
+                    <text id="Name" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#404040">
+                        <tspan x="199" y="107">Name</tspan>
+                    </text>
+                    <text id="Joyce-Byers" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="141">Joyce Byers</tspan>
+                    </text>
+                    <text id="Nancy-Wheeler" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="334">Nancy Wheeler</tspan>
+                    </text>
+                    <text id="Jim-Hopper" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="173">Jim Hopper</tspan>
+                    </text>
+                    <text id="Jonathan-Byers" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="366">Jonathan Byers</tspan>
+                    </text>
+                    <text id="Mike-Wheeler" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="198" y="204">Mike Wheeler</tspan>
+                    </text>
+                    <text id="Karen-Wheeler" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="397">Karen Wheeler</tspan>
+                    </text>
+                    <text id="Jane-Ives" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="237">Jane Ives</tspan>
+                    </text>
+                    <text id="Steve-Harrington" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="200" y="430">Steve Harrington</tspan>
+                    </text>
+                    <text id="Dustin-Henderson" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="199" y="269">Dustin Henderson</tspan>
+                    </text>
+                    <text id="Ted-Wheeler" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="199" y="462">Ted Wheeler</tspan>
+                    </text>
+                    <text id="Lucas-Sinclair" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="199" y="301">Lucas Sinclair</tspan>
+                    </text>
+                    <text id="Will-Byers" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="199" y="494">Will Byers</tspan>
+                    </text>
+                    <text id="Holly-Wheeler" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="199" y="525">Holly Wheeler</tspan>
+                    </text>
+                    <text id="j.byers@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="141">j.byers@gmail.com</tspan>
+                    </text>
+                    <text id="n.wheeler@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="334">n.wheeler@gmail.com</tspan>
+                    </text>
+                    <text id="j.hopper@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="173">j.hopper@gmail.com</tspan>
+                    </text>
+                    <text id="jon.byers@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="366">jon.byers@gmail.com</tspan>
+                    </text>
+                    <text id="m.wheeler@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="204">m.wheeler@gmail.com</tspan>
+                    </text>
+                    <text id="k.wheeler@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="397">k.wheeler@gmail.com</tspan>
+                    </text>
+                    <text id="eleven@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="237">eleven@gmail.com</tspan>
+                    </text>
+                    <text id="s.harrington@gmail.c" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="430">s.harrington@gmail.com</tspan>
+                    </text>
+                    <text id="d.henderson@gmail.co" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="269">d.henderson@gmail.com</tspan>
+                    </text>
+                    <text id="t.wheeler@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="462">t.wheeler@gmail.com</tspan>
+                    </text>
+                    <text id="l.sinclair@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="301">l.sinclair@gmail.com</tspan>
+                    </text>
+                    <text id="w.byers@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="494">w.byers@gmail.com</tspan>
+                    </text>
+                    <text id="h.wheeler@gmail.com" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="425" y="525">h.wheeler@gmail.com</tspan>
+                    </text>
+                    <text id="555-1111" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="141">555-1111</tspan>
+                    </text>
+                    <text id="555-7777" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="334">555-7777</tspan>
+                    </text>
+                    <text id="555-2222" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="173">555-2222</tspan>
+                    </text>
+                    <text id="555-8888" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="366">555-8888</tspan>
+                    </text>
+                    <text id="555-3333" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="204">555-3333</tspan>
+                    </text>
+                    <text id="555-9999" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="397">555-9999</tspan>
+                    </text>
+                    <text id="555-4444" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="237">555-4444</tspan>
+                    </text>
+                    <text id="555-0000" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="430">555-0000</tspan>
+                    </text>
+                    <text id="555-5555" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="269">555-5555</tspan>
+                    </text>
+                    <text id="555-1222" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="462">555-1222</tspan>
+                    </text>
+                    <text id="555-6666" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="301">555-6666</tspan>
+                    </text>
+                    <text id="555-1333" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="494">555-1333</tspan>
+                    </text>
+                    <text id="555-1444" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#404040">
+                        <tspan x="649" y="525">555-1444</tspan>
+                    </text>
+                    <text id="Email" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#404040">
+                        <tspan x="424" y="107">Email</tspan>
+                    </text>
+                    <text id="Phone" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#404040">
+                        <tspan x="649" y="107">Phone</tspan>
+                    </text>
+                    <rect id="Rectangle-4" fill="#E6E6E6" x="188" y="50" width="675" height="36"></rect>
+                    <use id="Rectangle-38" stroke="#D0D0D0" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <use id="Rectangle-38-Copy" stroke="#BCBCBC" mask="url(#mask-8)" stroke-width="2" fill="#F5F5F5" xlink:href="#path-7"></use>
+                    <text id="Button" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#1A1A1A">
+                        <tspan x="391" y="72">Button</tspan>
+                    </text>
+                    <path d="M206.714286,67.2857143 C206.714286,66.4598173 206.420762,65.7533511 205.833705,65.1662946 C205.246649,64.5792381 204.540183,64.2857143 203.714286,64.2857143 C202.888389,64.2857143 202.181923,64.5792381 201.594866,65.1662946 C201.00781,65.7533511 200.714286,66.4598173 200.714286,67.2857143 C200.714286,68.1116113 201.00781,68.8180774 201.594866,69.4051339 C202.181923,69.9921904 202.888389,70.2857143 203.714286,70.2857143 C204.540183,70.2857143 205.246649,69.9921904 205.833705,69.4051339 C206.420762,68.8180774 206.714286,68.1116113 206.714286,67.2857143 L206.714286,67.2857143 Z M210.142857,72.8571429 C210.142857,73.0892869 210.058037,73.2901777 209.888393,73.4598214 C209.718749,73.6294651 209.517858,73.7142857 209.285714,73.7142857 C209.044642,73.7142857 208.843751,73.6294651 208.683036,73.4598214 L206.386161,71.1696429 C205.58705,71.7232171 204.696433,72 203.714286,72 C203.07589,72 202.465405,71.8761173 201.882812,71.6283482 C201.30022,71.3805791 200.797993,71.045761 200.376116,70.6238839 C199.954239,70.2020068 199.619421,69.6997797 199.371652,69.1171875 C199.123883,68.5345953 199,67.9241103 199,67.2857143 C199,66.6473182 199.123883,66.0368333 199.371652,65.4542411 C199.619421,64.8716489 199.954239,64.3694218 200.376116,63.9475446 C200.797993,63.5256675 201.30022,63.1908495 201.882812,62.9430804 C202.465405,62.6953113 203.07589,62.5714286 203.714286,62.5714286 C204.352682,62.5714286 204.963167,62.6953113 205.545759,62.9430804 C206.128351,63.1908495 206.630578,63.5256675 207.052455,63.9475446 C207.474332,64.3694218 207.809151,64.8716489 208.05692,65.4542411 C208.304689,66.0368333 208.428571,66.6473182 208.428571,67.2857143 C208.428571,68.2678621 208.151788,69.1584781 207.598214,69.9575893 L209.895089,72.2544643 C210.060269,72.4196437 210.142857,72.6205345 210.142857,72.8571429 L210.142857,72.8571429 Z" id="" fill="#737373"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

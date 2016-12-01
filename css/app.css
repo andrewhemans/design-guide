@@ -346,6 +346,7 @@ p {
 
 .reg-text {
   font-weight: 400;
+  padding-bottom: 7px;
 }
 
 .chip-text > p {
@@ -459,6 +460,11 @@ p {
   height: 350px;
 }
 
+.prd-typecard {
+  border: solid 1px #D0D0D0;
+  height: 380px;
+}
+
 .text-color {
   width: 24px;
   height: 24px;
@@ -523,6 +529,23 @@ p {
 
 #mkt-text-black {
   background-color: #1A1A1A;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#prd-txt-wht {
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  height: 24px;
+  width: 24px;
+  margin-top: -8px;
+  margin-right: 6px;
+}
+
+#prd-txt-gray {
+  background-color: #bcbcbc;
   height: 24px;
   width: 24px;
   margin-top: -8px;
