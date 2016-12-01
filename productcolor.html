@@ -17,13 +17,13 @@
     <div id="header-container">
 
       <div class="header-logo" id="header-logo">
-          <ul>
-            <li><img src="images/senchaleaf.svg" / width="36px"></li>
-            <li>
-              <p>Sencha</p>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li><img src="images/senchaleaf.svg" / width="36px"></li>
+          <li>
+            <p>Sencha</p>
+          </li>
+        </ul>
+      </div>
 
       <div id="header-title">
         <h1>Sencha Style Guide</h1>
@@ -31,77 +31,30 @@
       </div>
     </div>
 
-    <div id="header-content"
+    <div id="header-content" <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">
+        <div id="responsive-logo">
+          <ul>
+            <li><img src="images/senchaleaf.svg" / width="24px"></li>
+            <li>
+              <p>Sencha</p>
+            </li>
+          </ul>
+        </div>
 
-      <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">
-      <div id="responsive-logo">
-        <ul>
-          <li><img src="images/senchaleaf.svg" / width="24px"></li>
-          <li>
-            <p>Sencha</p>
-          </li>
+      </div>
+    </div>
+
+    <div class="top-bar" id="main-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text"></li>
         </ul>
       </div>
-
-    </div>
-  </div>
-
-  <div class="top-bar" id="main-menu">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text"></li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-      <ul class="vertical menu dropdown" data-accordion-menu>
-        <li class="menu-parent"><a href="index.html">Introduction</a></li>
-        <li class="menu-parent">
-          <a href="#">Marketing Styles</a>
-          <ul class="menu vertical nested">
-            <li><a href="marketinglogo.html">Logo</a></li>
-            <li><a href="marketingcolor.html">Color</a></li>
-            <li ><a href="print-type.html">Print Typography</a></li>
-            <li ><a href="web-type.html">Web Typography</a></li>
-          </ul>
-        </li>
-        <li class="menu-parent">
-          <a href="#">Product Styles</a>
-          <ul class="menu vertical nested is-active">
-            <li><a href="productlogo.html">Logo</a></li>
-            <li class="active"><a href="productcolor.html">Color</a></li>
-            <li><a href="producttype.html">Typography</a></li>
-          </ul>
-        </li>
-        <li class="menu-parent">
-          <a href="#">UX Guide</a>
-          <ul class="menu vertical nested">
-            <li><a href="uxconcepts.html">Concepts</a></li>
-          </ul>
-        </li>
-        <li class="menu-parent">
-          <a href="#">Components</a>
-          <ul class="menu vertical nested">
-            <li><a href="panels.html">Panels</a></li>
-            <li><a href="buttons.html">Buttons</a></li>
-            <li><a href="grids.html">Grids</a></li>
-          </ul>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-
-
-    </div>
-    <!-- End Header -->
-
-    <!-- Start Nav -->
-    <div class="row" id="body-container">
-      <div id="nav" class="small-2 medium-2 columns">
+      <div class="top-bar-right">
         <ul class="vertical menu dropdown" data-accordion-menu>
-          <li class="menu-parent "><a href="index.html">Introduction</a></li>
+          <li class="menu-parent"><a href="index.html">Introduction</a></li>
           <li class="menu-parent">
             <a href="#">Marketing Styles</a>
             <ul class="menu vertical nested">
@@ -136,206 +89,258 @@
 
         </ul>
       </div>
+    </div>
 
-      <!-- body content -->
 
-      <div class="small-12 medium-8 columns body-content" id="body-content">
+  </div>
+  <!-- End Header -->
 
-        <h2>Color</h2>
-        <br/>
-        <h3>Color Palette</h3>
-        <p>All of Sencha’s elements: canvases, headers, footers, and typography come from Sencha’s color palette. These colors must be used in order to reflect Sencha’s brand.</p>
-      
+  <!-- Start Nav -->
+  <div class="row" id="body-container">
+    <div id="nav" class="small-2 medium-2 columns">
+      <ul class="vertical menu dropdown" data-accordion-menu>
+        <li class="menu-parent "><a href="index.html">Introduction</a></li>
+        <li class="menu-parent">
+          <a href="#">Marketing Styles</a>
+          <ul class="menu vertical nested">
+            <li><a href="marketinglogo.html">Logo</a></li>
+            <li><a href="marketingcolor.html">Color</a></li>
+            <li><a href="print-type.html">Print Typography</a></li>
+            <li><a href="web-type.html">Web Typography</a></li>
+          </ul>
+        </li>
+        <li class="menu-parent">
+          <a href="#">Product Styles</a>
+          <ul class="menu vertical nested is-active">
+            <li><a href="productlogo.html">Logo</a></li>
+            <li class="active"><a href="productcolor.html">Color</a></li>
+            <li><a href="producttype.html">Typography</a></li>
+          </ul>
+        </li>
+        <li class="menu-parent">
+          <a href="#">UX Guide</a>
+          <ul class="menu vertical nested">
+            <li><a href="uxconcepts.html">Concepts</a></li>
+          </ul>
+        </li>
+        <li class="menu-parent">
+          <a href="#">Components</a>
+          <ul class="menu vertical nested">
+            <li><a href="panels.html">Panels</a></li>
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="grids.html">Grids</a></li>
+          </ul>
+        </li>
 
-        <div class="colorcontainer card-left large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="mkt-darkblue"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#024059</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Button Outline</p>
-              <p class="reg-text">Button Pressed</p>
-            </div>
+      </ul>
+    </div>
+
+    <!-- body content -->
+
+    <div class="small-12 medium-8 columns body-content" id="body-content">
+
+      <h2>Color</h2>
+      <br/>
+      <h3>Color Palette</h3>
+      <p>All of Sencha’s elements: canvases, headers, footers, and typography come from Sencha’s color palette. These colors must be used in order to reflect Sencha’s brand.</p>
+
+      <div class="small-12 columns prd-clr">
+      <div class="colorcontainer card-left large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="mkt-baseblue"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Base Color</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#025B80</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Base Color, Main Header,</p>
+            <p class="reg-text">Buttons, link:hover</p>
           </div>
         </div>
-
-        <div class="colorcontainer card-middle large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-darkerblue"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#014D6C</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Button Hover</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="colorcontainer card-right large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="mkt-baseblue"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#025B80</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Base Color, Main Header,</p>
-              <p class="reg-text">Buttons, link:hover</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="colorcontainer card-left large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="mkt-lightblue"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#0A8CC6</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Text Links</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="colorcontainer card-middle large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-highlightblue"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#0A8CC6 at 20%</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Selected Grid Row</p>
-            </div>
-          </div>
-        </div>
-
-               <div class="colorcontainer card-right large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="mkt-coolgray"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#1A1A1A</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Body Text, Tree Text</p>
-            </div>
-          </div>
-        </div>
-
-              <div class="colorcontainer card-left large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-icongray"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#737373</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Icons</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="colorcontainer card-middle large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-darkgray-2"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#BCBCBC</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Secondary Button Border</p>
-              <p class="reg-text">Secondary Button Pressed</p>
-            </div>
-          </div>
-        </div>
-
-               <div class="colorcontainer card-right large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-textfield"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#D0D0D0</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Text Field Border</p>
-            </div>
-          </div>
-        </div>
-
-                      <div class="colorcontainer card-left large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-splittergray"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#E6E6E6</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Splitter, Class Nav Header,</p>
-              <p class="reg-text">Toolbar Button Hover, Grid</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="colorcontainer card-middle large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-lightgray"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#F5F5F5</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Footer, Secondary Button</p>
-            </div>
-          </div>
-        </div>
-
-               <div class="colorcontainer card-right large-4 columns">
-          <div class="colorcard small-12 columns">
-            <div class="colorchip small-12 columns" id="prd-gridgray"></div>
-            <div class="chip-text small-12 columns">
-              <h4>Color Name</h4>
-              <br/>
-              <p>HEX</p>
-              <p class="reg-text">#F9F9F9</p>
-              <br/>
-              <p>USES</p>
-              <p class="reg-text">Grid Background Color</p>
-            </div>
-          </div>
-        </div>
-
-
       </div>
-      <div class="small-2 medium-2 columns">
+
+      <div class="colorcontainer card-middle large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-darkerblue"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#014D6C</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Button Hover</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-right large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="mkt-darkblue"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#024059</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Button Outline</p>
+            <p class="reg-text">Button Pressed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-left large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="mkt-lightblue"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#0A8CC6</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Text Links</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-middle large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-highlightblue"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#0A8CC6 at 20%</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Selected Grid Row</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-right large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="mkt-coolgray"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#1A1A1A</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Body Text, Tree Text</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-left large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-icongray"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#737373</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Icons</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-middle large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-darkgray-2"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#BCBCBC</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Secondary Button Border</p>
+            <p class="reg-text">Secondary Button Pressed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-right large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-textfield"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#D0D0D0</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Text Field Border</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-left large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-splittergray"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#E6E6E6</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Splitter, Class Nav Header,</p>
+            <p class="reg-text">Toolbar Button Hover, Grid</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-middle large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-lightgray"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#F5F5F5</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Footer, Secondary Button</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="colorcontainer card-right large-4 columns">
+        <div class="prd-colorcard  small-12 columns">
+          <div class="colorchip small-12 columns" id="prd-gridgray"></div>
+          <div class="chip-text small-12 columns">
+            <h4>Color Name</h4>
+            <br/>
+            <p>HEX</p>
+            <p class="reg-text">#F9F9F9</p>
+            <br/>
+            <p>USES</p>
+            <p class="reg-text">Grid Background Color</p>
+          </div>
+        </div>
       </div>
     </div>
+
+
+      <div class="">
+        <h3>Improper Use of Color Palette</h3>
+        <p>Do not use the accent color for the body text or larger areas of color.</p>
+        <img class="logo-image" src="images/panel-clr.svg"/>
+      </div>
+
+    </div>
+    <div class="small-2 medium-2 columns">
+    </div>
+  </div>
 
   </div>
 
