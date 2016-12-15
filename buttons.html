@@ -8,7 +8,13 @@
   <title>Sencha Design Guidelines</title>
   <script src="https://use.fontawesome.com/3c530b4eb6.js"></script>
   <script src="https://use.typekit.net/uoe4slu.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -56,13 +62,13 @@
       </div>
       <div class="top-bar-right">
         <ul class="vertical menu dropdown" data-accordion-menu>
-          <li class="menu-parent"><a href="#">Introduction</a></li>
+          <li class="menu-parent "><a href="index.html">Introduction</a></li>
           <li class="menu-parent">
             <a href="#">Marketing Styles</a>
-            <ul class="menu vertical nested is-active">
+            <ul class="menu vertical nested">
               <li><a href="marketinglogo.html">Logo</a></li>
               <li><a href="marketingcolor.html">Color</a></li>
-              <li class="active"><a href="print-type.html">Print Typography</a></li>
+              <li><a href="print-type.html">Print Typography</a></li>
               <li><a href="web-type.html">Web Typography</a></li>
             </ul>
           </li>
@@ -82,9 +88,9 @@
           </li>
           <li class="menu-parent">
             <a href="#">Components</a>
-            <ul class="menu vertical nested">
+            <ul class="menu vertical nested is-active">
               <li><a href="components-intro.html">Introduction</a></li>
-              <li><a href="buttons.html">Buttons</a></li>
+              <li class="active"><a href="buttons.html">Buttons</a></li>
               <li><a href="dialogs.html">Dialogs</a></li>
               <li><a href="forms.html">Forms</a></li>
               <li><a href="grids.html">Grids</a></li>
@@ -111,13 +117,13 @@
   <div class="row" id="body-container">
     <div id="nav" class="small-2 medium-2 columns">
       <ul class="vertical menu dropdown" data-accordion-menu>
-        <li class="menu-parent "><a href="index.html">Introduction</a></li>
+        <li class="menu-parent"><a href="index.html">Introduction</a></li>
         <li class="menu-parent">
           <a href="#">Marketing Styles</a>
-          <ul class="menu vertical nested is-active">
+          <ul class="menu vertical nested">
             <li><a href="marketinglogo.html">Logo</a></li>
             <li><a href="marketingcolor.html">Color</a></li>
-            <li class="active"><a href="print-type.html">Print Typography</a></li>
+            <li><a href="print-type.html">Print Typography</a></li>
             <li><a href="web-type.html">Web Typography</a></li>
           </ul>
         </li>
@@ -137,9 +143,9 @@
         </li>
         <li class="menu-parent">
           <a href="#">Components</a>
-          <ul class="menu vertical nested">
+          <ul class="menu vertical nested is-active">
             <li><a href="components-intro.html">Introduction</a></li>
-            <li><a href="buttons.html">Buttons</a></li>
+            <li class="active"><a href="buttons.html">Buttons</a></li>
             <li><a href="dialogs.html">Dialogs</a></li>
             <li><a href="forms.html">Forms</a></li>
             <li><a href="grids.html">Grids</a></li>
@@ -161,112 +167,61 @@
 
     <div class="small-12 medium-8 columns" id="body-content">
 
-      <h2>Print Typography</h2>
+      <h2>Buttons</h2>
       <br/>
-      <h3>Typeface</h3>
-      <p>The preferred typeface to use is Effra. Use Adobe Typekit to sync the Effra typeface, if this is not an option, use Source Sans Pro (Google Font) or Helvetica.</p>
-
-      <ul>
-        <li>Headlines should be set in Effra Light</li>
-        <li>Subheads should be Effra Medium</li>
-        <li>Body copy should use Effra Light</li>
-        <li>For emphasis copy use Effra Medium or Bold</li>
-      </ul>
-
-<div class="small-12 columns" id="text-cards">
-      <div class="typecontainer card-left large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Headline</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">light</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">32pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="textcolor small-1 columns has-tip top" id="mkt-text-green" data-tooltip title="#78BE20"></div>
-              <p class="reg-text">Pantone 368 C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-middle large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Subhead 1</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">medium</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">16pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-baseblue" data-tooltip title="#025B80"></div>
-              <p class="reg-text">Pantone 7700 C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-right large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Subhead 2</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">medium</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">12pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-black" data-tooltip title="#1A1A1A"></div>
-              <p class="reg-text">Pantone Process Black C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-left large-4 columns end">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Body Copy</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">light</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">11pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-black" data-tooltip title="#1A1A1A"></div>
-              <p class="reg-text">Pantone Process Black C</p>
-          </div>
-        </div>
-      </div>
-</div>
-<h3>Two Column Layout</h3>
-<p>When dealing with large amounts of text, a two column layout is preferred to one body column of text. Less is more, avoid unnecessary rules or solid blocks of colors. Layouts should feel light and airy; not dark and dense</p>
-<img class="logo-image" src="images/two-col.png" width="859px"/>
-
-
-
-
-
-
+      <h3>Purpose</h3>
+      <p>Buttons are used as triggers for actions. Depending on the use case, buttons contain a label and/or an icon. There are the types of buttons that are used in our products: Basic buttons, toolbar buttons, segmented buttons, dropdown buttons, split buttons, and icon buttons. </p>
+      <br/><br/>
+      <h3>Button Sizes</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/btn-sml.svg"/>  &nbsp;&nbsp;32px &nbsp;&nbsp;Small Button</p>
+      <p class="btn-text"><img src="images/buttons/btn-md.svg"/>  &nbsp;&nbsp;38px &nbsp;&nbsp;Medium Button</p>
+      <p class="btn-text"><img src="images/buttons/btn-lg.svg"/>  &nbsp;&nbsp;44px &nbsp;&nbsp;Large Button</p>
+      <br/><br/>
+      <h3>Basic Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/btn-nml.svg"/>  &nbsp;&nbsp;Button Normal</p>
+      <p class="btn-text"><img src="images/buttons/btn-fcs.svg"/>  &nbsp;&nbsp;Button Focused</p>
+      <p class="btn-text"><img src="images/buttons/btn-prs.svg"/>  &nbsp;&nbsp;Button Pressed</p>
+      <p class="btn-text"><img src="images/buttons/btn-dsb.svg"/>  &nbsp;&nbsp;Button Disabled</p>
+      <br/><br/>
+      <h3>Secondary Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/btn-2-nml.svg"/>  &nbsp;&nbsp;Button Normal</p>
+      <p class="btn-text"><img src="images/buttons/btn-2-fcs.svg"/>  &nbsp;&nbsp;Button Focused</p>
+      <p class="btn-text"><img src="images/buttons/btn-2-prs.svg"/>  &nbsp;&nbsp;Button Pressed</p>
+      <p class="btn-text"><img src="images/buttons/btn-2-dsb.svg"/>  &nbsp;&nbsp;Button Disabled</p>
+      <br/><br/>
+      <h3>Toolbar Buttons</h3>
+      <br/><br/>
+      <img src="images/buttons/tlbr-1.svg"/><br/><br/><br/><br/>
+      <img src="images/buttons/tlbr-2.svg"/><br/><br/><br/><br/>
+      <img src="images/buttons/tlbr-3.svg"/><br/><br/><br/><br/>
+      <img src="images/buttons/tlbr-4.svg"/><br/><br/><br/><br/>
+      <h3>Segmented Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/sgmt-1.svg"/></p>
+      <p class="btn-text"><img src="images/buttons/sgmt-2.svg"/></p>
+      <br/><br/>
+      <h3>Basic Dropdown Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/dpdn-1.svg"/></p>
+      <p class="btn-text"><img src="images/buttons/dpdn-2.svg"/></p>
+      <br/><br/>
+      <h3>Split Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/splt-1.svg"/></p>
+      <p class="btn-text"><img src="images/buttons/splt-2.svg"/></p>
+      <br/><br/>
+      <h3>Toolbar Dropdown Buttons</h3>
+      <br/><br/>
+      <img src="images/buttons/tlbr-dpdn-1.svg"/><br/><br/><br/><br/>
+      <img src="images/buttons/tlbr-dpdn-2.svg"/><br/><br/>
+      <br/><br/>
+      <h3>Icon Buttons</h3>
+      <br/>
+      <p class="btn-text"><img src="images/buttons/icn-1.svg"/></p>
+      <p class="btn-text"><img src="images/buttons/icn-2.svg"/></p>
     </div>
     <div class="small-2 medium-2 columns">
     </div>

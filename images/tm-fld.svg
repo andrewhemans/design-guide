@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="541px" height="32px" viewBox="0 0 541 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>tm-fld</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="541" height="32"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="541" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forms" transform="translate(-325.000000, -751.000000)">
+            <g id="tm-fld" transform="translate(325.000000, 751.000000)">
+                <use id="Rectangle-6" stroke="#D0D0D0" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M523.895307,18.8346947 C523.789957,18.9387398 523.649163,19 523.499508,19 C523.350837,19 523.209058,18.9387398 523.104693,18.8346947 L519.167378,14.9461299 C519.062028,14.8420848 519,14.7030338 519,14.5552314 C519,14.2518475 519.255005,14 519.562192,14 L527.436823,14 C527.744995,14 528,14.2518475 528,14.5552314 C528,14.7030338 527.937972,14.8420848 527.832622,14.9461299 L523.895307,18.8346947 Z" id="Fill-46" fill="#4A4A4A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

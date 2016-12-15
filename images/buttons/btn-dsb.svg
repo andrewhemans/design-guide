@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="32px" viewBox="0 0 70 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-dsb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="70" height="32"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="70" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-325.000000, -1123.000000)">
+            <g id="btn-dsb" transform="translate(325.000000, 1123.000000)">
+                <use id="Rectangle-2" stroke="#024059" mask="url(#mask-2)" stroke-width="2" fill="#025B80" opacity="0.5" xlink:href="#path-1"></use>
+                <text id="Button" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="16" y="20">Button</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
