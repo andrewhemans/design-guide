@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="117px" height="32px" viewBox="0 0 117 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>splt-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 117 0 117 32 0 32"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-327.000000, -2375.000000)">
+            <g id="splt-2" transform="translate(327.000000, 2375.000000)">
+                <g id="Toolbar-Split-Button">
+                    <use id="Fill-36" stroke="#BCBCBC" mask="url(#mask-2)" stroke-width="2" fill="#F5F5F5" xlink:href="#path-1"></use>
+                    <path d="M105.832604,13.9461299 L101.894858,17.8356671 C101.790481,17.9387398 101.648687,18 101.5,18 C101.351313,18 101.209519,17.9387398 101.105142,17.8356671 L97.1664114,13.9461299 C97.0610503,13.8420848 97,13.7030338 97,13.5562038 C97,13.2518475 97.2540481,13 97.5622538,13 L105.437746,13 C105.744967,13 106,13.2518475 106,13.5562038 C106,13.7030338 105.93895,13.8420848 105.832604,13.9461299" id="Fill-38" fill="#4A4A4A"></path>
+                    <path d="M86.5,1.5 L86.5,30.5" id="Line" stroke="#BCBCBC" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

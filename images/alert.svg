@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="327px" height="173px" viewBox="0 0 327 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0 0 319 0 319 165 0 165"></polygon>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="319" height="165" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <rect id="path-4" x="132" y="125" width="56" height="32"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="32" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dialogs" transform="translate(-320.000000, -733.000000)">
+            <g id="alert" transform="translate(324.000000, 735.000000)">
+                <g id="Message-Box" filter="url(#filter-1)">
+                    <use id="Fill-20" stroke="#025B80" mask="url(#mask-3)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <polygon id="Fill-22" fill="#025B80" points="0 0 319 0 319 44 0 44"></polygon>
+                    <polygon id="Fill-23" fill="#ECECEC" points="2 119 317 119 317 163 2 163"></polygon>
+                </g>
+                <text id="Alert" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="13" y="26">Alert</tspan>
+                </text>
+                <text id="The-quick-brown-fox" font-family="OpenSans-Light, Open Sans" font-size="13" font-weight="300" fill="#4A4A4A">
+                    <tspan x="19" y="85">The quick brown fox jumped over the lazy dog.</tspan>
+                </text>
+                <use id="Rectangle-2" stroke="#024059" mask="url(#mask-5)" stroke-width="2" fill="#025B80" xlink:href="#path-4"></use>
+                <text id="OK" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="151" y="145">OK</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="105px" height="38px" viewBox="0 0 105 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-md</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="90" height="38"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="38" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-325.000000, -773.000000)">
+            <g id="btn-md" transform="translate(325.000000, 773.000000)">
+                <use id="Rectangle-2" stroke="#024059" mask="url(#mask-2)" stroke-width="2" fill="#025B80" xlink:href="#path-1"></use>
+                <text id="Button" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="23" y="23">Button</tspan>
+                </text>
+                <path d="M101.5,0.5 L101.5,37.5" id="Line" stroke="#919191" stroke-linecap="square"></path>
+                <path id="Line-decoration-1" d="M104.5,0.5 L98.5,0.5" stroke="#919191" stroke-linecap="square"></path>
+                <path id="Line-decoration-2" d="M104.5,37.5 L98.5,37.5" stroke="#919191" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

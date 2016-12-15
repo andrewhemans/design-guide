@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="32px" viewBox="0 0 75 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>dpdn-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 75 0 75 32 0 32"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-327.000000, -2194.000000)">
+            <g id="dpdn-2" transform="translate(327.000000, 2194.000000)">
+                <g id="Toolbar-Menu-Button">
+                    <use id="Fill-44" stroke="#BCBCBC" mask="url(#mask-2)" stroke-width="2" fill="#F5F5F5" xlink:href="#path-1"></use>
+                    <path d="M59.8953069,17.8346947 C59.7899573,17.9387398 59.6491631,18 59.4995077,18 C59.3508369,18 59.2090581,17.9387398 59.1046931,17.8346947 L55.1673777,13.9461299 C55.0620282,13.8420848 55,13.7030338 55,13.5552314 C55,13.2518475 55.2550049,13 55.5621923,13 L63.4368231,13 C63.7449951,13 64,13.2518475 64,13.5552314 C64,13.7030338 63.9379718,13.8420848 63.8326223,13.9461299 L59.8953069,17.8346947 Z" id="Fill-46" fill="#4A4A4A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

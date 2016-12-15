@@ -8,7 +8,13 @@
   <title>Sencha Design Guidelines</title>
   <script src="https://use.fontawesome.com/3c530b4eb6.js"></script>
   <script src="https://use.typekit.net/uoe4slu.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -56,13 +62,13 @@
       </div>
       <div class="top-bar-right">
         <ul class="vertical menu dropdown" data-accordion-menu>
-          <li class="menu-parent"><a href="#">Introduction</a></li>
+          <li class="menu-parent "><a href="index.html">Introduction</a></li>
           <li class="menu-parent">
             <a href="#">Marketing Styles</a>
-            <ul class="menu vertical nested is-active">
+            <ul class="menu vertical nested">
               <li><a href="marketinglogo.html">Logo</a></li>
               <li><a href="marketingcolor.html">Color</a></li>
-              <li class="active"><a href="print-type.html">Print Typography</a></li>
+              <li><a href="print-type.html">Print Typography</a></li>
               <li><a href="web-type.html">Web Typography</a></li>
             </ul>
           </li>
@@ -82,10 +88,10 @@
           </li>
           <li class="menu-parent">
             <a href="#">Components</a>
-            <ul class="menu vertical nested">
+            <ul class="menu vertical nested is-active">
               <li><a href="components-intro.html">Introduction</a></li>
               <li><a href="buttons.html">Buttons</a></li>
-              <li><a href="dialogs.html">Dialogs</a></li>
+              <li class="active"><a href="dialogs.html">Dialogs</a></li>
               <li><a href="forms.html">Forms</a></li>
               <li><a href="grids.html">Grids</a></li>
               <li><a href="icons.html">Icons</a></li>
@@ -111,13 +117,13 @@
   <div class="row" id="body-container">
     <div id="nav" class="small-2 medium-2 columns">
       <ul class="vertical menu dropdown" data-accordion-menu>
-        <li class="menu-parent "><a href="index.html">Introduction</a></li>
+        <li class="menu-parent"><a href="index.html">Introduction</a></li>
         <li class="menu-parent">
           <a href="#">Marketing Styles</a>
-          <ul class="menu vertical nested is-active">
+          <ul class="menu vertical nested">
             <li><a href="marketinglogo.html">Logo</a></li>
             <li><a href="marketingcolor.html">Color</a></li>
-            <li class="active"><a href="print-type.html">Print Typography</a></li>
+            <li><a href="print-type.html">Print Typography</a></li>
             <li><a href="web-type.html">Web Typography</a></li>
           </ul>
         </li>
@@ -137,10 +143,10 @@
         </li>
         <li class="menu-parent">
           <a href="#">Components</a>
-          <ul class="menu vertical nested">
+          <ul class="menu vertical nested is-active">
             <li><a href="components-intro.html">Introduction</a></li>
             <li><a href="buttons.html">Buttons</a></li>
-            <li><a href="dialogs.html">Dialogs</a></li>
+            <li class="active"><a href="dialogs.html">Dialogs</a></li>
             <li><a href="forms.html">Forms</a></li>
             <li><a href="grids.html">Grids</a></li>
             <li><a href="icons.html">Icons</a></li>
@@ -161,112 +167,22 @@
 
     <div class="small-12 medium-8 columns" id="body-content">
 
-      <h2>Print Typography</h2>
+      <h2>Dialogs</h2>
       <br/>
-      <h3>Typeface</h3>
-      <p>The preferred typeface to use is Effra. Use Adobe Typekit to sync the Effra typeface, if this is not an option, use Source Sans Pro (Google Font) or Helvetica.</p>
-
-      <ul>
-        <li>Headlines should be set in Effra Light</li>
-        <li>Subheads should be Effra Medium</li>
-        <li>Body copy should use Effra Light</li>
-        <li>For emphasis copy use Effra Medium or Bold</li>
-      </ul>
-
-<div class="small-12 columns" id="text-cards">
-      <div class="typecontainer card-left large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Headline</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">light</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">32pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="textcolor small-1 columns has-tip top" id="mkt-text-green" data-tooltip title="#78BE20"></div>
-              <p class="reg-text">Pantone 368 C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-middle large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Subhead 1</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">medium</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">16pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-baseblue" data-tooltip title="#025B80"></div>
-              <p class="reg-text">Pantone 7700 C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-right large-4 columns">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Subhead 2</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">medium</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">12pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-black" data-tooltip title="#1A1A1A"></div>
-              <p class="reg-text">Pantone Process Black C</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="typecontainer card-left large-4 columns end">
-        <div class="typecard small-12 columns">
-          <div class="chip-text small-12 columns">
-            <h4>Body Copy</h4>
-            <br/>
-            <p>FONT</p>
-            <p class="reg-text">Effra</p>
-            <br/>
-            <p>WEIGHT</p>
-            <p class="reg-text">light</p>
-            <br/>
-            <p>SIZE</p>
-            <p class="reg-text">11pt</p>
-            <br/>
-            <p>TEXT COLOR</p>
-            <div class="colorchip small-1 columns has-tip top" id="mkt-text-black" data-tooltip title="#1A1A1A"></div>
-              <p class="reg-text">Pantone Process Black C</p>
-          </div>
-        </div>
-      </div>
-</div>
-<h3>Two Column Layout</h3>
-<p>When dealing with large amounts of text, a two column layout is preferred to one body column of text. Less is more, avoid unnecessary rules or solid blocks of colors. Layouts should feel light and airy; not dark and dense</p>
-<img class="logo-image" src="images/two-col.png" width="859px"/>
-
-
-
-
-
-
+      <h3>Purpose</h3>
+      <p>Dialogs provide the user with a focused way of accomplishing, confirming, or viewing something without leaving a screen or page. </p>
+      <br/><br/>
+      <h3>Alert</h3>
+      <p>Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation.</p>
+      <p><img src="images/alert.svg"/></p>
+      <br/><br/>
+      <h3>Confirmation</h3>
+      <p>A confirmation dialog is short, simple dialog that ensures the user is performing an action intentionally. This is especially useful for dangerous or irreversible operations. Buttons with a higher priority function should be placed on the right side as shown here. </p>
+      <p><img src="images/confirm.svg"/></p>
+      <br/><br/>
+      <h3>Actionless</h3>
+      <p>An actionless dialog may block user interaction for a period of time, usually until something finishes or some other event occurs.</p>
+      <p><img src="images/loading.svg"/></p>
     </div>
     <div class="small-2 medium-2 columns">
     </div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="32px" viewBox="0 0 75 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>dpdn-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="75" height="32"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-327.000000, -2142.000000)">
+            <g id="dpdn-1" transform="translate(327.000000, 2142.000000)">
+                <use id="Rectangle-2" stroke="#024059" mask="url(#mask-2)" stroke-width="2" fill="#025B80" xlink:href="#path-1"></use>
+                <path d="M60.8953069,18.8346947 C60.7899573,18.9387398 60.6491631,19 60.4995077,19 C60.3508369,19 60.2090581,18.9387398 60.1046931,18.8346947 L56.1673777,14.9461299 C56.0620282,14.8420848 56,14.7030338 56,14.5552314 C56,14.2518475 56.2550049,14 56.5621923,14 L64.4368231,14 C64.7449951,14 65,14.2518475 65,14.5552314 C65,14.7030338 64.9379718,14.8420848 64.8326223,14.9461299 L60.8953069,18.8346947 Z" id="Fill-46" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
