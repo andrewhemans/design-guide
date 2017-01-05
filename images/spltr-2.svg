@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="5px" viewBox="0 0 300 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>spltr-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layouts" transform="translate(-428.000000, -1243.000000)">
+            <g id="spltr-2" transform="translate(578.000000, 1245.500000) rotate(-90.000000) translate(-578.000000, -1245.500000) translate(575.500000, 1095.500000)">
+                <rect id="Rectangle-24" fill="#024059" x="0" y="0" width="5" height="300"></rect>
+                <rect id="Rectangle-25" fill="#026D99" x="0" y="126" width="5" height="48"></rect>
+                <path d="M4,147.333333 L4,152 C4,152.090278 3.96701422,152.168402 3.90104167,152.234375 C3.83506911,152.300348 3.7569449,152.333333 3.66666667,152.333333 C3.57638844,152.333333 3.49826422,152.300348 3.43229167,152.234375 L1.09895833,149.901042 C1.03298578,149.835069 1,149.756945 1,149.666667 C1,149.576388 1.03298578,149.498264 1.09895833,149.432292 L3.43229167,147.098958 C3.49826422,147.032986 3.57638844,147 3.66666667,147 C3.7569449,147 3.83506911,147.032986 3.90104167,147.098958 C3.96701422,147.164931 4,147.243055 4,147.333333 Z" id="" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="308px" height="32px" viewBox="0 0 308 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>frm-icn2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="308" height="32"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="308" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-330.000000, -2123.000000)">
+            <g id="frm-icn2" transform="translate(330.000000, 2123.000000)">
+                <use id="Rectangle-6" stroke="#D0D0D0" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M290.895307,18.8346947 C290.789957,18.9387398 290.649163,19 290.499508,19 C290.350837,19 290.209058,18.9387398 290.104693,18.8346947 L286.167378,14.9461299 C286.062028,14.8420848 286,14.7030338 286,14.5552314 C286,14.2518475 286.255005,14 286.562192,14 L294.436823,14 C294.744995,14 295,14.2518475 295,14.5552314 C295,14.7030338 294.937972,14.8420848 294.832622,14.9461299 L290.895307,18.8346947 Z" id="Fill-46" fill="#4A4A4A"></path>
+            </g>
+        </g>
+    </g>
+</svg>
